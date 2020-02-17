@@ -63,6 +63,7 @@ for i in range(0, 20):
 
 
 
+
 d=[]
 for y_pixel in range(0, image_out_array.shape[1]):              #transform array to image       1->[0, 0, 0]    0->[255, 255, 255]
     for x_pixel in range(0, image_out_array.shape[0]):
